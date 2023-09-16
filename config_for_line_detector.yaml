@@ -1,0 +1,22 @@
+line_detector_node:
+  ros__parameters:
+    camera_resolution: 720p
+    camera_frame_rate: 10
+    hls_select:
+    - Saturation
+    - Hue
+    - Lightness
+    s_range: 
+    - 100
+    - 255
+    h_range:
+    - 0
+    - 255
+    l_range:
+    - 10
+    - 255
+    shape: Circle
+    radius: 50
+    start_angle: -60
+    end_angle: 60
+    draw: False
